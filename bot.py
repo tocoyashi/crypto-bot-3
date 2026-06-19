@@ -14,9 +14,15 @@ CHANNEL_ID = os.environ.get("CHANNEL_ID")
 # Updated to reliable Yahoo Finance tickers
 PAIRS = [
     ("ETH-USD", "LTC-USD", "ETHUSDT", "LTCUSDT"),
-    ("BNB-USD", "SOL-USD", "BNBUSDT", "SOLUSDT"),
     ("XRP-USD", "ADA-USD", "XRPUSDT", "ADAUSDT"),
-    ("BTC-USD", "ETH-USD", "BTCUSDT", "ETHUSDT")
+    ("BTC-USD", "ETH-USD", "BTCUSDT", "ETHUSDT"),
+    ("BNB-USD", "SOL-USD", "BNBUSDT", "SOLUSDT"),
+    ("ETH-USD", "AVAX-USD", "ETHUSDT", "AVAXUSDT"),
+    ("SOL-USD", "ADA-USD", "SOLUSDT", "ADAUSDT"),
+    ("LTC-USD", "XRP-USD", "LTCUSDT", "XRPUSDT"),
+    ("AVAX-USD", "LINK-USD", "AVAXUSDT", "LINKUSDT"),
+    ("BNB-USD", "XRP-USD", "BNBUSDT", "XRPUSDT"),
+    ("DOT-USD", "NEAR-USD", "DOTUSDT", "NEARUSDT")
 ]
 
 LEVERAGE = "10"
