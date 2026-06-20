@@ -25,4 +25,4 @@ jobs:
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
-        run: python backtest.py
+        run: python pairs_backtest.py
